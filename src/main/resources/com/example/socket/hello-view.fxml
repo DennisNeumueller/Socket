@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socket.HelloController">
+   <children>
+      <Button fx:id="btnStart" layoutX="363.0" layoutY="166.0" mnemonicParsing="false" onAction="#starten" prefHeight="67.0" prefWidth="112.0" text="Starten" />
+      <TextArea fx:id="areaNachrichten" layoutX="25.0" layoutY="66.0" prefHeight="200.0" prefWidth="326.0" />
+      <TextField fx:id="textNachricht" layoutX="25.0" layoutY="280.0" prefHeight="25.0" prefWidth="326.0" />
+      <TextField fx:id="textPortNr" layoutX="358.0" layoutY="94.0" prefHeight="25.0" prefWidth="122.0" />
+      <Label layoutX="401.0" layoutY="58.0" text="Portnr." />
+      <Label layoutX="25.0" layoutY="41.0" text="Nachrichten!" />
+      <Label fx:id="lblConnection" layoutX="363.0" layoutY="284.0" prefHeight="17.0" prefWidth="112.0" visible="false" />
+   </children>
+</AnchorPane>
